@@ -1,0 +1,126 @@
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .container {
+    width: 360px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+  }
+  
+  .top {
+    height: 111px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  
+  .top-left {
+    width: 196px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .top-left .upper {
+    height: 33px;
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 32.5px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #000;
+    margin-bottom: 5px;
+    white-space: nowrap;
+  }
+  
+  .top-left .lower {
+    width: 111px;
+    height: 23px;
+    color: #717171;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    white-space: nowrap;
+  }
+  
+  .top-right {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .top-right img {
+    width: 40px;
+    height: 14px;
+  }
+  
+  .middle {
+    height: 291px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .circle {
+    width: 232.11px;
+    height: 230.96px;
+    border-radius: 200px;
+    background: linear-gradient(90deg, #00F5A0 0%, #00D9F5 100%);
+    box-shadow: 0px 11px 26px -15px #00000024;
+    position: relative;
+  }
+  
+  .shoe-image {
+    width: 264.49px;
+    height: 158.27px;
+    position: absolute;
+    top: 34.15px;
+    left: -14.55px;
+    transform: rotate(-13.98deg);
+    opacity: 1;
+  }
+  
+  .bottom {
+    height: 104px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .bottom-left {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+    text-align: left;
+  }
+  
+  .bottom-right {
+    width: 54px;
+    height: 54px;
+    background-color: #000000;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px 0px 0px;
+    margin-left: auto;
+    margin-right: 10px;
+  }
+  
+  .heart-container img {
+    width: 21px;
+    height: 19px;
+    filter: brightness(0) invert(1);
+  }
